@@ -23,7 +23,7 @@ With /backend?app=**\[NAME\]** can you open any Module \(/backend/?app=Article\)
 
 ## Use components from another backend application
 
-When you want to use components from an another application, you have to load first the App. Otherwise the Ext.Loader cannot find the right controller to load the files.
+When you want to use components from an another application, you have to load the App first. Otherwise the Ext.Loader cannot find the right controller to load the files.
 
 **Example for the Voucher Store**
 
@@ -151,7 +151,7 @@ Ext.define('Shopware.apps.Emotion.store.MyTestStore', {
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-## Show in every form the id of the record
+## Show the id of the record in every form
 
 Open developer console and insert following code and open the module.
 
